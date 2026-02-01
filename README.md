@@ -24,7 +24,7 @@ Le CV est structuré en plusieurs sections :
 1. **Mettre à jour les informations** :
    - Ajouter ou modifier les sections dans le fichier source (HTML).
 
-2**Générer une nouvelle version** :
+2. **Générer une nouvelle version** :
    - Après modification, exporter le fichier au format PDF pour une version finale.
 
 ## Conseils pour le CV
