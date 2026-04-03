@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Clément Vernaison - Développeur fullstack</title>
+    <title>Clément Vernaison - Développeur fullstack - Lyon (ouvert à la mobilité)</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Je développe des architectures numériques accessibles et fonctionnelles pour tous les utilisateurs, avec une réflexion éthique."/>
+    <meta name="description" content="Je développe des services numériques accessibles et fonctionnelles pour tous les utilisateurs, avec une réflexion éthique."/>
     <link rel="stylesheet" href="styles/app.min.css">
+    <script src="app.min.js"></script>
 </head>
 <body>
+    <nav id="skip-links" class="c-skip-links" role="navigation" aria-label="Accès rapide">
+        <ul class="c-skip-links__list">
+            <li class="c-skip-links__item"><a href="#content" class="c-skip-links__link">Contenu</a></li>
+            <li class="c-skip-links__item"><a href="#experience" class="c-skip-links__link">Expériences</a></li>
+            <li class="c-skip-links__item"><a href="#certifications" class="c-skip-links__link">Certifications</a></li>
+            <li class="c-skip-links__item"><a href="#degree" class="c-skip-links__link">Diplômes</a></li>
+            <li class="c-skip-links__item"><a href="#skills" class="c-skip-links__link">Compétences</a></li>
+            <li class="c-skip-links__item"><a href="#hobbies" class="c-skip-links__link">Centres d'intérêts</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <header class="c-header" role="banner">
-            <div class="c-header__img">
+            <div class="c-header__logo">
                 <img src="portrait.png" alt=""/>
             </div>
-            <h1 class="c-header__title u-margin-bottom-0"><span class="u-text-bold">Clément</span> <span class="u-text-upper">Vernaison</span><br><span class="c-header__title-baseline u-text-bold">Développeur fullstack</span></h1>
+            <h1 class="c-header__title u-margin-bottom-0">
+                <span><span class="u-text-bold">Clément</span> <span class="u-text-upper">Vernaison</span></span><br>
+                <span class="c-header__title-baseline u-text-bold">Développeur fullstack</span><br>
+                <span class="c-header__title-geo has-icon--left"><i class="o-icon o-icon--map-marker o-icon--medium" role="presentation"></i>Lyon (ouvert à la mobilité)</span>
+            </h1>
             <ul class="c-header__contact">
                 <li class="has-icon--left"><i class="o-icon o-icon--mail o-icon--medium" role="presentation"></i><a href="mailto:c.vernaison@hotmail.fr">c.vernaison@hotmail.fr</a></li>
                 <li class="has-icon--left"><i class="o-icon o-icon--phone o-icon--medium" role="presentation"></i><a href="tel:+33770360056">07 70 36 00 56</a></li>
                 <li class="c-header__contact-linkedin has-icon--left"><i class="o-icon o-icon--linkedin o-icon--medium" role="presentation"></i><a href="https://www.linkedin.com/in/clement-vernaison/" target="_blank">LinkedIn</a></li>
             </ul>
         </header>
-        <main role="main">
-            <p class="u-margin-top-0">Je développe des <em>architectures numériques accessibles et fonctionnelles</em> pour tous les utilisateurs, avec une réflexion éthique.</p>
-            <section>
+        <main id="content" role="main">
+            <p class="u-margin-top-0">Je développe des <em>services numériques accessibles et fonctionnelles</em> pour tous les utilisateurs, avec une réflexion éthique.</p>
+            <section id="experiences">
                 <h2><span class="u-border u-border--bottom u-padding-bottom-1 has-icon has-icon--left"><i class="o-icon o-icon--briefcase" role="presentation"></i>Expériences</span></h2>
                 <p>
                 <ul>
@@ -45,7 +60,7 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section id="certifications">
                 <h2><span class="u-border u-border--bottom u-padding-bottom-1 has-icon has-icon--left"><i class="o-icon o-icon--certificate" role="presentation"></i>Certifications</span></h2>
                 <ul>
                     <li>2021 <em>Développer et coder des sites accessibles</em> – <span class="u-text-italic">Access42</span></li>
@@ -53,14 +68,14 @@
                     <li>2022 <em>Écoconception de services numériques</em> – <span class="u-text-italic">GreenIT.fr</span></li>
                 </ul>
             </section>
-            <section>
-                <h2><span class="u-border u-border--bottom u-padding-bottom-1 has-icon has-icon--left"><i class="o-icon o-icon--graduation" role="presentation"></i>Formations</span></h2>
+            <section id="degree">
+                <h2><span class="u-border u-border--bottom u-padding-bottom-1 has-icon has-icon--left"><i class="o-icon o-icon--graduation" role="presentation"></i>Diplômes</span></h2>
                 <ul>
                     <li>2018 – 2019 <em>Licence professionnelle informatique : Services Mobiles et Interfaces Nomades (SMIN)</em> – IUT1 Université Grenoble Alpes, Grenoble</li>
                     <li>2016 – 2018 <em>DUT Réseaux et Télécommunications</em> – IUT1 Université Grenoble Alpes, Grenoble</li>
                 </ul>
             </section>
-            <section>
+            <section id="skills">
                 <h2><span class="u-border u-border--bottom u-padding-bottom-1 has-icon has-icon--left"><i class="o-icon o-icon--target" role="presentation"></i>Compétences</span></h2>
                 <ul class="has-bullet">
                     <li>Développement : HTML5, CSS (SCSS/Less), PHP (5/7/8 + Symfony), JavaScript, SQL</li>
@@ -70,7 +85,7 @@
                     <li>Langues : Anglais B2, français natif</li>
                 </ul>
             </section>
-            <section>
+            <section id="hobbies">
                 <h2><span class="u-border u-border--bottom u-padding-bottom-1">Centres d'intérêts</span></h2>
                 <p class="u-margin-top-0">Course à pied et cyclisme | Cuisine et pâtisserie | Science générale | Vie locale et citoyenne</p>
             </section>
