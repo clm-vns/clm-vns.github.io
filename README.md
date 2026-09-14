@@ -1,7 +1,7 @@
 
 # CV - Clément Vernaison
 
-Ce dépôt contient le fichier du CV de Clément Vernaison, développeur fullstack axé sur l'accessibilité et l'éthique numérique.
+Ce dépôt contient le fichier du CV de Clément Vernaison, administrateur systèmes et réseaux.
 Le fichier est compatible à l'impression sur Firefox afin de générer le fichier PDF.
 
 ## Structure du CV
